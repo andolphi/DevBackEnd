@@ -32,7 +32,7 @@ Para fazer o projeto foi utilizado a seguinte estrutura:
 
  - Apenas para como forma de demonstração, qualquer um pode criar um usuário e acessar o sistema.
  - Link para ver aplicação rodando: https://www.andolphi.com.br/ezoom/TesteBack/public
- - Os serviços cadastrados no menu serviços é disponibilizado através da api https://www.andolphi.com.br/ezoom/TesteBack/public/api/servico/< id >
+ - Os serviços cadastrados no menu serviços são disponibilizados através da api https://www.andolphi.com.br/ezoom/TesteBack/public/api/servico/< id >
  - Caso não consiga rodar a aplicação, por favor entre em contato. 
  - Estou disonível para qualquer dúvida.
 
