@@ -31,7 +31,7 @@ Para fazer o projeto foi utilizado a seguinte estrutura:
 ## Considerações
 
  - Apenas para como forma de demonstração, qualquer um pode criar um usuário e acessar o sistema.
- - O menu "Serviços" faz integrção com meu teste de Front-End através de uma API, que é consumida pelo teste de Front-End.
+ - O menu "Serviços" faz integrção com meu teste de Front-End através de uma API, que é consumida pela pagina.
  - Caso não consiga rodar a aplicação, por favor entre em contato. 
  - Estou disonível para qualquer dúvida.
 
