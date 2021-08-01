@@ -14,6 +14,7 @@ class VendedorController extends Controller
         $this->middleware('auth');
     }
 
+    // Validação do formulário
     protected function validaForm(Request $request, $id = null){
         
         $regras = [
