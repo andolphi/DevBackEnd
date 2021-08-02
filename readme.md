@@ -24,15 +24,17 @@ Para fazer o projeto foi utilizado a seguinte estrutura:
 
 ## Forma de utilizar
 
-- Acesse o endereço http://< nome_do_host > / < pasta_onde_esta_aplicaão> /public/
+- Caso tenha instalado a aplicação acesse o endereço http://< nome_do_host > / < pasta_onde_esta_aplicaão> /public/
+- Link para ver aplicação em produção: https://www.andolphi.com.br/ezoom/TesteBack/public
 - Faça o cadastro, caso já tenha usuário faça o login.
-
+- Procurei fazer a aplicação da forma mais intuitiva possível.
+- Nela é possivel cadastrar os usuários, cliente e vendedores  _(não coloquei nivel de acesso aos usuários, todos os usuários cadastrados tem acesso total a aplicação .)_
+- o Cliente pode ser associado a um vendedor _(um cliente pode ser associado a apenas um vendedor, mas o sendedor poderá ser associado a vários clientes)_.
+- No menu serviço é possivel alterar os serviços descritos em https://www.andolphi.com.br/ezoom/TesteFront/ _(A a plicação está integrada com o site através de uma API)_
 
 ## Considerações
 
- - Apenas para como forma de demonstração, qualquer um pode criar um usuário e acessar o sistema.
- - Link para ver aplicação rodando: https://www.andolphi.com.br/ezoom/TesteBack/public
- - Os serviços cadastrados no menu serviços são disponibilizados através da api https://www.andolphi.com.br/ezoom/TesteBack/public/api/servico/< id >
+ - Apenas como forma de demonstração qualquer um pode criar um usuário e acessar o sistema.
  - Caso não consiga rodar a aplicação, por favor entre em contato. 
  - Estou disonível para qualquer dúvida.
 
