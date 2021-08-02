@@ -1,6 +1,7 @@
 # Projeto Teste Back-End
 
 Para fazer o projeto foi utilizado a seguinte estrutura:
+- Bootstrap
 - MARIADB / MYSQL
 - LARAVEL 
 - APACHE
