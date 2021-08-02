@@ -1,4 +1,4 @@
-# Projeto teste_magazine_brindes
+# Projeto Teste Back-End Ezoom
 
 Para fazer o projeto foi utilizado a seguinte estrutura:
 - MARIADB / MYSQL
