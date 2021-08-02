@@ -1,4 +1,4 @@
-# Projeto Teste Back-End Ezoom
+# Projeto Teste Back-End
 
 Para fazer o projeto foi utilizado a seguinte estrutura:
 - MARIADB / MYSQL
