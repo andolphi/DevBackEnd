@@ -34,10 +34,10 @@ class ClienteController extends Controller
     }
 
     
-    public function create()
+    public function create($vendedor_id = null)
     {
         $vendedores = Vendedor::orderBy('name')->get();
-        return view('admin.formAddCliente',compact('vendedores'));
+        return view('admin.formAddCliente',compact('vendedores','vendedor_id'));
     }
 
     

@@ -106,7 +106,7 @@
                 <table class="table table-hover text-nowrap">
                   <thead>
                     <tr>
-                      <th width="20%"><a class="btn btn-primary btn-sm d-print-none" href="{{route('admin.formAddCliente')}}" role="button">Incluir</a></th>    
+                      <th width="20%"><a class="btn btn-primary btn-sm d-print-none" href="{{route('admin.formAddCliente',$vendedor->id)}}" role="button">Incluir</a></th>    
                       <th>Nome</th>
 
                     </tr>

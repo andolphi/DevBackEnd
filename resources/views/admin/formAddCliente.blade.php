@@ -25,7 +25,7 @@
             <!-- general form elements disabled -->
             <div class="card card-secondary">
               <div class="card-header">
-                <h3 class="card-title">Dados do Cliente</h3>
+                <h3 class="card-title">Dados do Cliente </h3>
               </div>
               <!-- /.card-header -->
               <div class="card-body">
@@ -43,7 +43,7 @@
                                     <select class="form-control @error('vendedor_id') is-invalid @enderror" name="vendedor_id" aria-describedby="vendedorHelp" >
                                       <option value=""></option>
                                       @foreach ($vendedores as $vend)
-                                          <option value="{{$vend->id}}">{{$vend->name}}</option>
+                                          <option {{($vend->id == $vendedor_id)?'selected':''}} value="{{$vend->id}}">{{$vend->name}}</option>
                                       @endforeach
                                     </select> 
                                     

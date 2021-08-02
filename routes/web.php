@@ -36,7 +36,7 @@ Route::get('/remVend/{id}','VendedorController@destroy')->name('admin.remVend');
 
 // rotas Clientes
 Route::get('/clientes','ClienteController@index')->name('admin.clientes');
-Route::get('/addCliente','ClienteController@create')->name('admin.formAddCliente');
+Route::get('/addCliente/{vendedor_id?}','ClienteController@create')->name('admin.formAddCliente');
 Route::post('/addCliente','ClienteController@store')->name('admin.addCliente');
 Route::get('/editCliente/{id}','ClienteController@edit')->name('admin.formEdtCliente');
 Route::post('/editCliente/{id}','ClienteController@update')->name('admin.edtCliente');
